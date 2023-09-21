@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Numbers</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+   <nav id="navbar">
+      <div class="logo">
+         <a href="#"> Number Sequence</a>
+      </div>
+      <ul id="menuu">
+        <li><a href="#Wrapper">Odd Or Even</a></li>
+        <li><a href="#Wrapper2">Prime or composite</a></li>
+        <li><a href="#Wrapper3">Factorial</a></li>
+        <li><a href="#Wrapper4">Fibonacci</a></li>
+        <li><a href="#Wrapper5">Palindrome</a></li>
+      </ul>
+      
+      <div class="menu">
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+        <div class="menu-line"></div>
+      </div>
+   </nav>
+    
+
+   
+
+    <div id="Wrapper">
+        <h2 id="OddorEven">Odd Or Even Number</h2>
+        <div class="inputdiv">
+            <input type="number" id="input_num" placeholder="Enter a number">
+        </div>
+        <div>
+            <button type="submit" onclick="Odd_Even()">Odd Or Even</button>
+        </div>
+    </div>
+
+
+
+
+    <div id="Wrapper2">
+        <h2 id="PrimeorComposite">Prime or composite</h2>
+        <div class="inputdiv">
+            <input type="number" id="input" placeholder="Enter a number">
+        </div>
+        <div>
+            <button onclick="checkNumber()">Prime or Composite</button>
+            <p id="result"></p>
+        </div>
+    </div>
+
+
+
+
+    <div id="Wrapper3">
+        <h2 id="Factorial">Find the Factorial Number</h2>
+        <div class="inputdiv">
+            <input type="number" id="numberInput" placeholder="Enter a number">
+        </div>
+        <button onclick="calculateFactorial()">Find the Factorial</button>
+        <p id="result1"></p>
+    </div>
+
+
+
+
+    <div id="Wrapper4"> 
+        <h2 id="Fibonacci">Find the Fibonacci Number</h2> 
+        <input type="number" id="number_Input" placeholder="Enter a number">
+        <button onclick="calculateFibonacci()">Find the Fibonacci</button>
+        <p id="result2"></p>
+
+    </div>
+
+
+
+
+    <div id="Wrapper5">
+        <h2 id="Palindrome">Find the palindrome</h2>
+        <input type="text" id="wordInput" placeholder="Enter a number">
+        <button onclick="checkPalindrome()">Find the Palindrome</button>
+        <p id="result3"></p>
+    </div>
+</body>
+</html>
